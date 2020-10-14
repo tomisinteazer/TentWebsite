@@ -1,8 +1,8 @@
-# Acesworldng
+# Thunder enterprises
 
-## The official website of  Acesworld ng
+## The official website of Thunder Enterprises
+
 One of Nigeria’s leading investment firms. With our digital platform, investing is now simplified and you can invest safely without having to navigate the complex financial markets.
-
 
 ```bash
 # install dependencies
@@ -20,5 +20,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
 # TentWebsite
+
 # TentWebsite

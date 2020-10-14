@@ -2,8 +2,8 @@
   <v-container>
     <h2 class="primary--text">Terms of Service</h2>
     <h4>
-      By opening an investment portfolio with Acesworld NG, you expressly
-      warrant and represent that:
+      By opening an investment portfolio with Thunder Enterprises NG, you
+      expressly warrant and represent that:
     </h4>
 
     <div v-for="(item, i) in terms" :key="i">
