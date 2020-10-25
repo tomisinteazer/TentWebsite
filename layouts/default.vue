@@ -10,13 +10,11 @@
     >
       <v-layout column align-center>
         <v-flex class="mt-5">
-          <v-avatar size="150" color="white">
-            <img class="text-lg-center" src="aces.png" />
+          <v-avatar size="150">
+            <v-img contain src="/icon.png"></v-img>
           </v-avatar>
-          <p
-            class="font-weight-black text-lg-center mt-3 primary--text text-center"
-          >
-            Thunder Enterprises NG
+          <p class="font-weight-black text-lg-center mt-3 text-center">
+            Thunder Enterprises
           </p>
         </v-flex>
       </v-layout>
@@ -39,7 +37,7 @@
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped" fixed app flat height="80">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="primary" />
-      <img src="/acw.png" height="40" alt />
+      <img src="/icon.png" height="40" alt />
       <nuxt-link to="/" flat transparent>
         <v-toolbar-title v-text="title" />
       </nuxt-link>
@@ -49,17 +47,16 @@
       </v-btn>
     </v-app-bar>
     <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
+
       <v-footer color="transparent" class="pt-5 pb-5">
         <v-container>
           <v-row>
             <v-col cols="12" md="6">
-              <img src="/acw.png" height="40" alt />
+              <img src="/icon.png" height="40" alt />
               <div class="overline">
                 <span>&copy; {{ new Date().getFullYear() }}</span
-                >Thunder Enterprises NG
+                >Thunder Enterprises
               </div>
               <div style="margin-left: -8px">
                 <v-btn
@@ -71,7 +68,7 @@
                 </v-btn>
                 <v-btn
                   small
-                  href="https://www.twitter.com/Thunder Enterprises"
+                  href="https://www.twitter.com/Thunder EnterprisesNG"
                   icon
                 >
                   <v-icon small>mdi-twitter</v-icon>
@@ -79,7 +76,7 @@
 
                 <v-btn
                   small
-                  href="https://www.instagram.com/Thunder Enterprises_"
+                  href="https://www.instagram.com/Thunder Enterprisesng_"
                   icon
                 >
                   <v-icon small>mdi-instagram</v-icon>
@@ -171,7 +168,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: "Thunder Enterprises NG",
+      title: "Thunder Enterprises",
     };
   },
   methods: {

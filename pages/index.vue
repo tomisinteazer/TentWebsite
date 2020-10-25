@@ -1,103 +1,103 @@
-
 <template>
   <div class="force">
     <!-- landing section -->
-    <section class="pb-6 mt-5">
-      <v-container>
-        <v-row no-gutters>
-          <v-col cols="12" md="6" class="mt-md-8 text-center my-5">
-            <h2 class="display-1 mb-6 my-5">Welcome to</h2>
-            <h1 class="display-2 primary--text font-weight-bold mb-6 my-5">
-              Thunder Enterprises NG
-            </h1>
-            <p class="body-1">
-              One of Nigeria’s leading investment firms. With our digital
-              platform, investing is now simplified and you can invest safely
-              without having to navigate the complex financial markets.
-            </p>
+    <section class="my-12 px-5">
+      <v-row no-gutters>
+        <v-col cols="12" md="6" class="mt-md-8 text-center my-5 px-5">
+          <h2 class="display-1 mb-6 my-5">Welcome to</h2>
+          <h1 class="display-2 primary--text font-weight-bold mb-6 my-5">
+            Thunder Enterprises
+          </h1>
+          <p class="body-1">
+            One of Nigeria’s leading investment firms. With our digital
+            platform, investing is now simplified and you can invest safely
+            without having to navigate the complex financial markets.
+          </p>
 
-            <v-dialog v-model="dialog" width="500">
-              <template v-slot:activator="{ on, attrs }">
-                <v-btn
-                  class="text-uppercase"
-                  color="primary"
-                  x-large
-                  dark
-                  v-bind="attrs"
-                  v-on="on"
-                  >Invest</v-btn
-                >
-              </template>
+          <v-dialog v-model="dialog" width="500">
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                class="text-uppercase"
+                color="primary"
+                x-large
+                dark
+                v-bind="attrs"
+                v-on="on"
+                >Invest</v-btn
+              >
+            </template>
 
-              <v-card>
-                <v-card-title class
-                  >Open an Investment<br />
-                  Portfolio.</v-card-title
-                >
+            <v-card>
+              <v-card-title class
+                >Open an Investment<br />
+                Portfolio.</v-card-title
+              >
 
-                <v-card-text
-                  >Fill in your details below and submit. You will be contacted
-                  shortly.</v-card-text
-                >
-                <v-form v-model="valid">
-                  <v-container>
-                    <v-row>
-                      <v-col cols="12">
-                        <v-text-field
-                          v-model="userFullName"
-                          :rules="nameRules"
-                          label="Full Name"
-                          required
-                        ></v-text-field>
-                      </v-col>
-                    </v-row>
-                    <v-row>
-                      <v-col cols="12">
-                        <v-text-field
-                          v-model="userEmail"
-                          :rules="emailRules"
-                          type="email"
-                          label="Email Address"
-                          required
-                        ></v-text-field>
-                      </v-col>
-                    </v-row>
-                    <v-row>
-                      <v-col cols="12">
-                        <v-text-field
-                          v-model="userNumber"
-                          type="number"
-                          label="Phone number"
-                          required
-                        ></v-text-field>
-                      </v-col>
-                    </v-row>
-                  </v-container>
-                </v-form>
+              <v-card-text
+                >Fill in your details below and submit. You will be contacted
+                shortly.</v-card-text
+              >
+              <v-form v-model="valid">
+                <v-container>
+                  <v-row>
+                    <v-col cols="12">
+                      <v-text-field
+                        v-model="userFullName"
+                        :rules="nameRules"
+                        label="Full Name"
+                        required
+                      ></v-text-field>
+                    </v-col>
+                  </v-row>
+                  <v-row>
+                    <v-col cols="12">
+                      <v-text-field
+                        v-model="userEmail"
+                        :rules="emailRules"
+                        type="email"
+                        label="Email Address"
+                        required
+                      ></v-text-field>
+                    </v-col>
+                  </v-row>
+                  <v-row>
+                    <v-col cols="12">
+                      <v-text-field
+                        v-model="userNumber"
+                        type="number"
+                        label="Phone number"
+                        required
+                      ></v-text-field>
+                    </v-col>
+                  </v-row>
+                </v-container>
+              </v-form>
 
-                <v-divider></v-divider>
+              <v-divider></v-divider>
 
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn color="primary" @click="investNow()">Submit</v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-dialog>
-            <v-btn class="ml-2 text-uppercase" x-large nuxt to="/about">
-              <v-icon left>mdi-magnify</v-icon>About
-            </v-btn>
-          </v-col>
+              <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn color="primary" @click="investNow()">Submit</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-dialog>
+          <v-btn class="ml-2 text-uppercase" x-large nuxt to="/about">
+            <v-icon left>mdi-magnify</v-icon>About
+          </v-btn>
+        </v-col>
 
-          <v-col cols="12" md="6" class="landing-image">
-            <img src="/feature1.svg" alt height="70%" />
-          </v-col>
-        </v-row>
-      </v-container>
+        <v-col cols="12" md="6" class="landing-image pt-12">
+          <v-img contain max-height="300" src="/feature1.svg"></v-img>
+        </v-col>
+      </v-row>
     </section>
 
     <!-- features -->
-    <section class="text-center">
+    <section class="text-center primary pb-16">
       <v-container>
+        <div class="display-1 white--text font-weight-bold my-14">
+          <p>Achieve Financial Growth</p>
+        </div>
         <v-row>
           <v-col v-for="(feature, i) in features" :key="i" cols="12" md="4">
             <v-hover>
@@ -105,7 +105,7 @@
                 <v-card class="py-12 px-4" :elevation="hover ? 24 : 0">
                   <img
                     class="mb-5"
-                    height="200px"
+                    height="150px"
                     contain
                     :src="feature.image"
                   />
@@ -125,6 +125,41 @@
         </v-row>
       </v-container>
     </section>
+    <svg viewBox="0 0 1920 135">
+      <defs>
+        <filter
+          id="Path_1006"
+          x="-152.573"
+          y="-460.806"
+          width="2324.175"
+          height="631.369"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset input="SourceAlpha"></feOffset>
+          <feGaussianBlur stdDeviation="25" result="blur"></feGaussianBlur>
+          <feFlood flood-opacity="0.161"></feFlood>
+          <feComposite operator="in" in2="blur"></feComposite>
+          <feComposite in="SourceGraphic"></feComposite>
+        </filter>
+        <clipPath id="clip-Home">
+          <rect width="1920" height="135"></rect>
+        </clipPath>
+      </defs>
+      <g id="Home" clip-path="url(#clip-Home)">
+        <rect width="1920" height="135" fill="#ffffff00"></rect>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1006)">
+          <path
+            id="Path_1006-2"
+            data-name="Path 1006"
+            d="M-9948.83,7778.837s223.576,20.394,386.754,27.238,264.528,2.657,433.32-7.967,394.238-56.657,849.857-44.854,433.191,56.657,433.191,56.657l-37.3-459.818H-8937.946s-717.868,3.541-721.409,0S-9970.4,7333.23-9970.4,7333.23l-47.161,238.25,15.345,197.12Z"
+            transform="translate(9941 -7718)"
+            fill="#ca902b"
+            stroke="#ca902b"
+            stroke-width="2"
+          ></path>
+        </g>
+      </g>
+    </svg>
 
     <section class="universal pa-5">
       <v-container class="text-center">
@@ -148,12 +183,26 @@
         </v-row>
       </v-container>
     </section>
-
-    <section class="pa-5">
+    <!-- ambassadors-->
+    <section class="my-12">
+      <v-container>
+        <v-row no-gutters>
+          <v-col cols="12" md="6" class="landing-image">
+            <v-img contain max-height="300" src="/finalfeature.svg"></v-img>
+          </v-col>
+          <v-col cols="12" md="6" class="mt-md-8 text-center">
+            <p class="display-1 font-weight-thin">
+              Never depend on single income. Make investment to create a second
+              source.'
+            </p>
+            <p>Warren Buffet- CEO of Berkshire Hathaway</p>
+          </v-col>
+        </v-row>
+      </v-container>
+    </section>
+    <section class="pa-5 primary">
       <v-container class="text-center">
-        <h2 class="display-1 ma-4 primary--text">
-          Testimonials from Investors
-        </h2>
+        <h2 class="display-1 ma-4 white--text">Investors Testimonials!</h2>
 
         <v-row>
           <v-col
@@ -166,7 +215,7 @@
               <template v-slot="{ hover }">
                 <v-card class="py-12 px-4" :elevation="hover ? 24 : 1">
                   <div>
-                    <v-avatar color="white" size="88">
+                    <v-avatar size="88">
                       <img :src="image" />
                     </v-avatar>
                   </div>
@@ -185,13 +234,46 @@
         </v-row>
       </v-container>
     </section>
+    <svg viewBox="0 0 1920 135">
+      <defs>
+        <filter
+          id="Path_1006"
+          x="-152.573"
+          y="-460.806"
+          width="2324.175"
+          height="631.369"
+          filterUnits="userSpaceOnUse"
+        >
+          <feOffset input="SourceAlpha"></feOffset>
+          <feGaussianBlur stdDeviation="25" result="blur"></feGaussianBlur>
+          <feFlood flood-opacity="0.161"></feFlood>
+          <feComposite operator="in" in2="blur"></feComposite>
+          <feComposite in="SourceGraphic"></feComposite>
+        </filter>
+        <clipPath id="clip-Home">
+          <rect width="1920" height="135"></rect>
+        </clipPath>
+      </defs>
+      <g id="Home" clip-path="url(#clip-Home)">
+        <rect width="1920" height="135" fill="#ffffff00"></rect>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1006)">
+          <path
+            id="Path_1006-2"
+            data-name="Path 1006"
+            d="M-9948.83,7778.837s223.576,20.394,386.754,27.238,264.528,2.657,433.32-7.967,394.238-56.657,849.857-44.854,433.191,56.657,433.191,56.657l-37.3-459.818H-8937.946s-717.868,3.541-721.409,0S-9970.4,7333.23-9970.4,7333.23l-47.161,238.25,15.345,197.12Z"
+            transform="translate(9941 -7718)"
+            fill="#ca902b"
+            stroke="#ca902b"
+            stroke-width="2"
+          ></path>
+        </g>
+      </g>
+    </svg>
 
     <section class="text-center pt-2">
       <v-container>
-        <div class="text-h5 primary--text">
-          Thunder Enterprises NG newsletter
-        </div>
-        <p class="mt-2">Subscribe to Thunder Enterprises NG newsletter</p>
+        <div class="text-h5 primary--text">Thunder Enterprises newsletter</div>
+        <p class="mt-2">Subscribe to Thunder Enterprises newsletter</p>
         <NewsletterForm />
       </v-container>
       <v-divider class="mt-2"></v-divider>
@@ -243,7 +325,7 @@ export default {
       ],
       testimonies: [
         {
-          image: "/aces.png",
+          image: "/icon.png",
           name: "Papa ",
           company: "Lagos State, Nigeria",
           text: ` Started investing with Thunder Enterprises investment 7months ago,so far, it has 
@@ -253,7 +335,7 @@ been professional. I get alerted of my money being available a day before
 and I get option on how to reinvest. It's been a joy ride.`,
         },
         {
-          image: "/aces.png",
+          image: "/icon.png",
           name: "Kehinde Aguda",
           company: "Lagos State, Nigeria",
           text: ` I started forex investment with Thunder Enterprises in February 2020 and I've been 
@@ -264,7 +346,7 @@ due date. My personal experience has an investor has been smooth, no
 complaints whatsoever. `,
         },
         {
-          image: "/aces.png",
+          image: "/icon.png",
           name: "Blessing Justin",
           company: "Kaduna state, Nigeria",
           text: `This is the first time I am investing my money and for once I feel at peace... 

@@ -3,7 +3,6 @@ import colors from "vuetify/es5/util/colors";
 export default {
   mode: "universal",
 
-  buildDir: "functions/.nuxt",
   /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
@@ -27,10 +26,10 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "One of Nigeria’s leading investment firms.",
-      },
+        content: "One of Nigeria’s leading investment firms."
+      }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
   /*
    ** Global CSS
@@ -63,12 +62,12 @@ export default {
       storageBucket: "Thunder Enterprises-ng.appspot.com",
       messagingSenderId: "407849957910",
       appId: "1:407849957910:web:6dac6af811a00224fc9337",
-      measurementId: "G-R1XV4FZ907",
+      measurementId: "G-R1XV4FZ907"
     },
     services: {
       auth: true,
-      firestore: true, // Just as example. Can be any other service.
-    },
+      firestore: true // Just as example. Can be any other service.
+    }
   },
   /*
    ** vuetify module configuration
@@ -81,20 +80,20 @@ export default {
       dark: false,
       themes: {
         dark: {
-          primary: "#0c7599",
+          primary: "#ca902b",
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
+          success: colors.green.accent3
         },
         light: {
-          primary: "#0a4e66",
-          secondary: "#00bcd4",
-        },
-      },
-    },
+          primary: "#ca902b",
+          secondary: "#00bcd4"
+        }
+      }
+    }
   },
 
   /*
@@ -103,6 +102,6 @@ export default {
    */
   build: {
     public: "/",
-    extracrCSS: true,
-  },
+    extracrCSS: true
+  }
 };
