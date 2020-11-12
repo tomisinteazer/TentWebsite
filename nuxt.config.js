@@ -2,6 +2,7 @@ import colors from "vuetify/es5/util/colors";
 
 export default {
   mode: "universal",
+  buildDir: "functions/.nuxt",
 
   /*
    ** Nuxt rendering mode
@@ -54,15 +55,16 @@ export default {
    */
   modules: ["@nuxtjs/pwa", "@nuxtjs/firebase"],
   firebase: {
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     config: {
-      apiKey: "AIzaSyBrHREfUwmNSO1liUHsv4YvR4_Z-ajGFW0",
-      authDomain: "Thunder Enterprises-ng.firebaseapp.com",
-      databaseURL: "https://Thunder Enterprises-ng.firebaseio.com",
-      projectId: "Thunder Enterprises-ng",
-      storageBucket: "Thunder Enterprises-ng.appspot.com",
-      messagingSenderId: "407849957910",
-      appId: "1:407849957910:web:6dac6af811a00224fc9337",
-      measurementId: "G-R1XV4FZ907"
+      apiKey: "AIzaSyDuNXqxPz2MMvp5Sd-SfIsje6hJUOSs8yg",
+      authDomain: "thunder-ent.firebaseapp.com",
+      databaseURL: "https://thunder-ent.firebaseio.com",
+      projectId: "thunder-ent",
+      storageBucket: "thunder-ent.appspot.com",
+      messagingSenderId: "767636914051",
+      appId: "1:767636914051:web:c6e2993124e13799bd00b6",
+      measurementId: "G-1BQ89HB821"
     },
     services: {
       auth: true,
