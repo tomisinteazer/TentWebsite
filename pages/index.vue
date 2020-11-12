@@ -340,7 +340,7 @@ and I get option on how to reinvest. It's been a joy ride.`,
           company: "Lagos State, Nigeria",
           text: ` I started forex investment with Thunder Enterprises in February 2020 and I've been 
 investing up until now because my personal expectations were met and 
-Aces delivered the services absolutely! I've been meeting my financial 
+Thunder enterprisesdelivered the services absolutely! I've been meeting my financial 
 expectations since I started in February and the Interest always come on 
 due date. My personal experience has an investor has been smooth, no 
 complaints whatsoever. `,

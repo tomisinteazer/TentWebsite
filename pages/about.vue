@@ -5,22 +5,22 @@
         <h1 class="display-2 mb-6 text-uppercase primary--text">About us</h1>
         <div class="mx-auto text-left" style="max-width: 700px">
           <p class="body-1">
-            Thunder Enterprises Enterprise (formerly Aces Enterprise) is a
-            financial solutions firm birthed on 2nd of October 2019. The brand
-            in a bid to serve people better has been restructured and registered
-            with the Corporate Affairs Commission (CAC) for ease of operations.
+            Thunder Enterprises Enterprise is a financial solutions firm birthed
+            on 2nd of October 2019. The brand in a bid to serve people better
+            has been restructured and registered with the Corporate Affairs
+            Commission (CAC) for ease of operations.
           </p>
         </div>
         <h1 class="mb-4 mx-auto text-h5 primary--text">Who are we</h1>
         <div class="mx-auto text-left" style="max-width: 700px">
           <p class="body-1">
-            We are a registered Nigerian firm (RC: 3152773) with expertise and
-            experience in finance. We deal majorly in the foreign exchange
-            (forex) market and the cryptocurrency world. We are also in
-            partnerships with prominent investment companies with the sole
-            purpose of maximizing the benefits our investors relish. With a
-            dedicated team of experts, we are continuously working on better
-            investment opportunities to enrich the lives of our investors
+            We are a registered Nigerian firm with expertise and experience in
+            finance. We deal majorly in the foreign exchange (forex) market and
+            the cryptocurrency world. We are also in partnerships with prominent
+            investment companies with the sole purpose of maximizing the
+            benefits our investors relish. With a dedicated team of experts, we
+            are continuously working on better investment opportunities to
+            enrich the lives of our investors
           </p>
         </div>
         <h1 class="mb-4 mx-auto text-h5 primary--text">What we offer</h1>
