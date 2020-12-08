@@ -389,12 +389,12 @@ const baseMixins = Object(_util_mixins__WEBPACK_IMPORTED_MODULE_6__[/* default *
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/faq.vue?vue&type=template&id=1188c726&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/faq.vue?vue&type=template&id=42433983&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-container',[_c('h1',{staticClass:"text-center primary--text"},[_vm._v("FAQ")]),_vm._v(" "),_c('v-expansion-panels',{staticClass:"mt-5"},_vm._l((_vm.Questions),function(que){return _c('v-expansion-panel',{key:que.Q},[_c('v-expansion-panel-header',{staticClass:"font-weight-black primary--text"},[_vm._v(_vm._s(que.Q))]),_vm._v(" "),_c('v-expansion-panel-content',[_vm._v("Answer : "+_vm._s(que.A))])],1)}),1),_vm._v(" "),_c('div',{staticClass:"caption mt-2 text-center"},[_vm._v("\n    call\n    "),_c('nuxt-link',{attrs:{"to":"/contact"}},[_vm._v("contact")])],1)],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/faq.vue?vue&type=template&id=1188c726&
+// CONCATENATED MODULE: ./pages/faq.vue?vue&type=template&id=42433983&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/faq.vue?vue&type=script&lang=js&
 //
@@ -421,7 +421,7 @@ var staticRenderFns = []
     return {
       Questions: [{
         Q: "Is your company registered?",
-        A: "Yes, we are registered with the Corporate Affairs commission with RC number 3152773."
+        A: "Yes, we are registered with the Corporate Affairs commission  "
       }, {
         Q: "Where does my money go?",
         A: "Every penny invested with us is invested into the forex market."
@@ -436,7 +436,7 @@ var staticRenderFns = []
         A: "Yes, we certainly do. But there are also times when we make losses so we turn our excess profits into reserves to ensure steady payouts for investors."
       }, {
         Q: "How long before I get paid?",
-        A: "Investments made with us mature after 25 working days but there are also custom investment plans that can range from 2 months to a year."
+        A: "Investments made with us mature after 30 days of payment."
       }, {
         Q: "How do I request payout?",
         A: "You only need to provide a signed copy of your MOU and your account details on your due date and you will get paid."
@@ -451,8 +451,8 @@ var staticRenderFns = []
         A: "Yes you can. However, the accrued interest will be forfeited and payment will be processed in 2-4 working days."
       }, {
         Q: "Help lines.",
-        A: `Email: infoThunder Enterprises@gmail.com 
-Call: +2348136908208, +2349019881034 (9:00am – 5:00pm. Monday – Friday).`
+        A: `Email: officialtent@gmail.com 
+Call: 09012976379, +2347042509361 (9:00am – 5:00pm. Monday – Friday).`
       }, {
         Q: "How do I fund my investment portfolio?",
         A: "A simple bank transfer or bank deposit to the company’s account will fund your investment portfolio."

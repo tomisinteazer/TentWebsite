@@ -5,31 +5,25 @@
         <h1 class="display-2 mb-6 text-uppercase primary--text">About us</h1>
         <div class="mx-auto text-left" style="max-width: 700px">
           <p class="body-1">
-            Thunder Enterprises Enterprise is a financial solutions firm birthed
-            on 2nd of October 2019. The brand in a bid to serve people better
-            has been restructured and registered with the Corporate Affairs
-            Commission (CAC) for ease of operations.
+            Thunder Enterprises is an investment form which deals in various
+            forms of investment deals from funds management to Automobiles to
+            Real estate to Agriculture, Entertainment and many more. As a
+            registered company, we offers various services and opportunities and
+            protocols have been put in place to make operations easy as our
+            major aim is to provide financial freedom for our investor and
+            clients
           </p>
         </div>
-        <h1 class="mb-4 mx-auto text-h5 primary--text">Who are we</h1>
-        <div class="mx-auto text-left" style="max-width: 700px">
-          <p class="body-1">
-            We are a registered Nigerian firm with expertise and experience in
-            finance. We deal majorly in the foreign exchange (forex) market and
-            the cryptocurrency world. We are also in partnerships with prominent
-            investment companies with the sole purpose of maximizing the
-            benefits our investors relish. With a dedicated team of experts, we
-            are continuously working on better investment opportunities to
-            enrich the lives of our investors
-          </p>
-        </div>
+
         <h1 class="mb-4 mx-auto text-h5 primary--text">What we offer</h1>
         <div class="mx-auto text-left" style="max-width: 700px">
           <p class="body-1">
-            An investment platform that gives people with little or no knowledge
-            about the forex markets an opportunity to earn from it. Our
-            investment platform offers monthly returns on any amount invested
-            with us.
+            We offer a platform where individuals with no knowledge of the
+            Foreign Exchange [Forex] market can understand how their funds can
+            work for them and provide access to financial freedom. We also offer
+            training classes to those willing to learn how to maneuver the forex
+            market. We also provide consultations on other investment
+            operations.
           </p>
           <p class="body-1">
             A cryptocurrency exchange platform that offers value for virtual
@@ -41,16 +35,14 @@
       <v-divider></v-divider>
       <div class="my-10">
         <h2 class="text-h5 primary--text">COMPANY’S WATCHWORD</h2>
-        <p class="body-1">“Building Wealth, Creating Value.”</p>
+        <p class="body-1">“Your financial freedom, Our Pride”</p>
         <h2 class="text-h5 primary--text">OUR VISION</h2>
-        <p class="body-1">
-          To be a global high-ranking multi-faceted brand that creates value.
-        </p>
+        <p class="body-1">To maintain a high level of profitability.</p>
         <h2 class="text-h5 primary--text">OUR MISSION</h2>
         <p class="body-1">
-          At Thunder Enterprises, we believe in our cause to financially
-          liberate the new generation and financially empower as much people as
-          we can with our investment platform and financial expertise.
+          At Thunder Enterprises, we desire to change the financial structure
+          and help our clients in achieving financial success as well as provide
+          the best quality of services in all operations.
         </p>
         <h2 class="text-h5 primary--text">OUR CORE VALUES</h2>
         <p class="body-1">Innovation</p>

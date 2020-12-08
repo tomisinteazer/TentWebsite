@@ -24,8 +24,7 @@ export default {
       Questions: [
         {
           Q: "Is your company registered?",
-          A:
-            "Yes, we are registered with the Corporate Affairs commission with RC number 3152773.",
+          A: "Yes, we are registered with the Corporate Affairs commission  ",
         },
         {
           Q: "Where does my money go?",
@@ -48,8 +47,7 @@ export default {
         },
         {
           Q: "How long before I get paid?",
-          A:
-            "Investments made with us mature after 25 working days but there are also custom investment plans that can range from 2 months to a year.",
+          A: "Investments made with us mature after 30 days of payment.",
         },
         {
           Q: "How do I request payout?",
@@ -75,8 +73,8 @@ export default {
         },
         {
           Q: "Help lines.",
-          A: `Email: infoThunder Enterprises@gmail.com 
-Call: +2348136908208, +2349019881034 (9:00am – 5:00pm. Monday – Friday).`,
+          A: `Email: officialtent@gmail.com 
+Call: 09012976379, +2347042509361 (9:00am – 5:00pm. Monday – Friday).`,
         },
 
         {

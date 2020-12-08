@@ -83,16 +83,12 @@
                 </v-btn>
                 <v-btn
                   small
-                  href="https://api.whatsapp.com/send?phone=2349019881034&text=Hello+Thunder Enterprises+my+name+is___"
+                  href="https://api.whatsapp.com/send?phone=2347042509361&text=Hello+Thunder Enterprises+my+name+is___"
                   icon
                 >
                   <v-icon small>mdi-whatsapp</v-icon>
                 </v-btn>
-                <v-btn
-                  small
-                  href="mailto:infoThunder Enterprises@gmail.com"
-                  icon
-                >
+                <v-btn small href="mailto:officialtent@gmail.com" icon>
                   <v-icon small>mdi-gmail</v-icon>
                 </v-btn>
               </div>

@@ -2256,12 +2256,12 @@ function validateAttachTarget(val) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/NewsletterForm.vue?vue&type=template&id=2046fa39&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/NewsletterForm.vue?vue&type=template&id=44ae0449&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-form',[_c('div',{staticClass:"d-flex flex-column flex-md-row justify-center align-top mx-auto",staticStyle:{"max-width":"600px"}},[_c('v-text-field',{staticClass:"mr-md-2",attrs:{"outlined":"","placeholder":"Email","rules":_vm.emailRules},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}}),_vm._v(" "),_c('v-btn',{attrs:{"x-large":"","color":"primary"},on:{"click":_vm.mailernwletter}},[_vm._v("Subscribe")])],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/NewsletterForm.vue?vue&type=template&id=2046fa39&
+// CONCATENATED MODULE: ./components/NewsletterForm.vue?vue&type=template&id=44ae0449&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/NewsletterForm.vue?vue&type=script&lang=js&
 //
@@ -2296,7 +2296,7 @@ var staticRenderFns = []
     mailernwletter() {
       if (this.email != "" || null) {
         let subject = "I want to subscribe to you news letter : " + this.email;
-        let mailRef = "mailto:infoThunder Enterprises@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(this.email);
+        let mailRef = "mailto:officialtent@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(this.email);
         window.location.replace(mailRef);
       } else {
         alert("please ensure all fields are filled correctly with valid details");
@@ -2418,8 +2418,8 @@ module.exports = exports;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=4e77d47c&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"force"},[_vm._ssrNode("<section class=\"my-12 px-5\">","</section>",[_c('v-row',{attrs:{"no-gutters":""}},[_c('v-col',{staticClass:"mt-md-8 text-center my-5 px-5",attrs:{"cols":"12","md":"6"}},[_c('h2',{staticClass:"display-1 mb-6 my-5"},[_vm._v("Welcome to")]),_vm._v(" "),_c('h1',{staticClass:"display-2 primary--text font-weight-bold mb-6 my-5"},[_vm._v("\n          Thunder Enterprises\n        ")]),_vm._v(" "),_c('p',{staticClass:"body-1"},[_vm._v("\n          One of Nigeria’s leading investment firms. With our digital\n          platform, investing is now simplified and you can invest safely\n          without having to navigate the complex financial markets.\n        ")]),_vm._v(" "),_c('v-dialog',{attrs:{"width":"500"},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=c6a8d21c&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"force"},[_vm._ssrNode("<section class=\"my-12 px-5\">","</section>",[_c('v-row',{attrs:{"no-gutters":""}},[_c('v-col',{staticClass:"mt-md-8 text-center my-5 px-5",attrs:{"cols":"12","md":"6"}},[_c('h2',{staticClass:"display-1 mb-6 my-5"},[_vm._v("Welcome to")]),_vm._v(" "),_c('h1',{staticClass:"display-2 primary--text font-weight-bold mb-6 my-5"},[_vm._v("\n          Thunder Enterprises\n        ")]),_vm._v(" "),_c('p',{staticClass:"body-1"},[_vm._v("\n          WELCOME TO THUNDER ENTERPRISES, A FAST RISING INVESTMENT FIRM. WITH\n          OURONLINE PLATFORM, ENQUIRIES ABOUT OUR SERVICES ARE MADE EASIER AND\n          LESSSTRESSFUL AS WE HELP IN SECURING YOUR FINANCIAL FREEDOM\n        ")]),_vm._v(" "),_c('v-dialog',{attrs:{"width":"500"},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
 var on = ref.on;
 var attrs = ref.attrs;
 return [_c('v-btn',_vm._g(_vm._b({staticClass:"text-uppercase",attrs:{"color":"primary","x-large":"","dark":""}},'v-btn',attrs,false),on),[_vm._v("Invest")])]}}]),model:{value:(_vm.dialog),callback:function ($$v) {_vm.dialog=$$v},expression:"dialog"}},[_vm._v(" "),_c('v-card',[_c('v-card-title',{},[_vm._v("Open an Investment"),_c('br'),_vm._v("\n              Portfolio.")]),_vm._v(" "),_c('v-card-text',[_vm._v("Fill in your details below and submit. You will be contacted\n              shortly.")]),_vm._v(" "),_c('v-form',{model:{value:(_vm.valid),callback:function ($$v) {_vm.valid=$$v},expression:"valid"}},[_c('v-container',[_c('v-row',[_c('v-col',{attrs:{"cols":"12"}},[_c('v-text-field',{attrs:{"rules":_vm.nameRules,"label":"Full Name","required":""},model:{value:(_vm.userFullName),callback:function ($$v) {_vm.userFullName=$$v},expression:"userFullName"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"cols":"12"}},[_c('v-text-field',{attrs:{"rules":_vm.emailRules,"type":"email","label":"Email Address","required":""},model:{value:(_vm.userEmail),callback:function ($$v) {_vm.userEmail=$$v},expression:"userEmail"}})],1)],1),_vm._v(" "),_c('v-row',[_c('v-col',{attrs:{"cols":"12"}},[_c('v-text-field',{attrs:{"type":"number","label":"Phone number","required":""},model:{value:(_vm.userNumber),callback:function ($$v) {_vm.userNumber=$$v},expression:"userNumber"}})],1)],1)],1)],1),_vm._v(" "),_c('v-divider'),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('v-btn',{attrs:{"color":"primary"},on:{"click":function($event){return _vm.investNow()}}},[_vm._v("Submit")])],1)],1)],1),_vm._v(" "),_c('v-btn',{staticClass:"ml-2 text-uppercase",attrs:{"x-large":"","nuxt":"","to":"/about"}},[_c('v-icon',{attrs:{"left":""}},[_vm._v("mdi-magnify")]),_vm._v("About\n        ")],1)],1),_vm._v(" "),_c('v-col',{staticClass:"landing-image pt-12",attrs:{"cols":"12","md":"6"}},[_c('v-img',{attrs:{"contain":"","max-height":"300","src":"/feature1.svg"}})],1)],1)],1),_vm._ssrNode(" "),_vm._ssrNode("<section class=\"text-center primary pb-16\">","</section>",[_c('v-container',[_c('div',{staticClass:"display-1 white--text font-weight-bold my-14"},[_c('p',[_vm._v("Achieve Financial Growth")])]),_vm._v(" "),_c('v-row',_vm._l((_vm.features),function(feature,i){return _c('v-col',{key:i,attrs:{"cols":"12","md":"4"}},[_c('v-hover',{scopedSlots:_vm._u([{key:"default",fn:function(ref){
@@ -2435,7 +2435,7 @@ return [_c('v-card',{staticClass:"py-12 px-4",attrs:{"elevation":hover ? 24 : 1}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=4e77d47c&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=c6a8d21c&
 
 // EXTERNAL MODULE: ./components/NewsletterForm.vue + 4 modules
 var NewsletterForm = __webpack_require__(231);
@@ -2723,7 +2723,7 @@ var NewsletterForm = __webpack_require__(231);
 //
 //
 //
-//infoThunder Enterprises@gmail.com
+//officialtent@gmail.com
 //Forexway007
 
 /* harmony default export */ var lib_vue_loader_options_pagesvue_type_script_lang_js_ = ({
@@ -2743,42 +2743,36 @@ var NewsletterForm = __webpack_require__(231);
       features: [{
         image: "/feature4.svg",
         title: "Innovative & Simple",
-        text: "Open an investment portfolio in Naira on our easy-to-use digital platform. You can now easily access short and medium-term investment opportunities."
+        text: "YOU CAN EASILY CREATE AN INVESTMENT PORTFOLIO WITH US FOR EITHERSHORT OT LONG TERM FINANCIAL INVESTMENT DEALS AND ALSO ENQUIRE ABOUTOTHER INVESTMENT OPPORTUNITIES."
       }, {
         image: "/feature2.svg",
         title: "Secure & Consistent",
-        text: "Get 20% return on investment in 25 working days. Invest your funds in a secure platform with guaranteed consistent returns paid promptly into your bank account."
+        text: "WE OFFER 25% RETURN ON INVESTMENTS IN 30 DAYS. FINANCIAL INVESTMENTSARE SAFE AND SECURED AS CONSISTENT PAYMENT IS GURANTEED. OTHER FORMSOF INVESTMENTS ARE VALID AS LEGITIMATE PROOF OF TRANSACTION WILL BEISSUED."
       }, {
         image: "/features.svg",
         title: "Social media platforms",
-        text: " Connect with us on all major social media pages. You can also subscribe to our newsletter to receive major updates and finance tips and news. "
+        text: " FOLLOW US ON OUR SOCIAL MEDIA PLATFORMS FOR YOUR MAJOR UPDATES ANDTIPS TO HELP YOU ACHIEVE FINANCIAL FREEDOM."
       }],
       testimonies: [{
         image: "/icon.png",
-        name: "Papa ",
-        company: "Lagos State, Nigeria",
-        text: ` Started investing with Thunder Enterprises investment 7months ago,so far, it has 
-been a great experience. I've been able to meet up with some of my 
-financial goals for the year. The management-investor relationship have 
-been professional. I get alerted of my money being available a day before 
-and I get option on how to reinvest. It's been a joy ride.`
+        name: "Bayo Babalola group of companies.",
+        company: "Western, Nigeria",
+        text: ` We have been trading with TENT as back as April,
+          2020 and we’re proud to say we’resatisfied by the service received.
+          TENT is indeed a backbone to our business and we look forward for more trades/transactions.`
       }, {
         image: "/icon.png",
-        name: "Kehinde Aguda",
+        name: "Adeola Temitope",
         company: "Lagos State, Nigeria",
-        text: ` I started forex investment with Thunder Enterprises in February 2020 and I've been 
-investing up until now because my personal expectations were met and 
-Thunder enterprisesdelivered the services absolutely! I've been meeting my financial 
-expectations since I started in February and the Interest always come on 
-due date. My personal experience has an investor has been smooth, no 
-complaints whatsoever. `
+        text: ` Investing with Thunder ent. is one of the good decisions I made in 2020,
+           very efficient and theircustomer service is very good `
       }, {
         image: "/icon.png",
-        name: "Blessing Justin",
-        company: "Kaduna state, Nigeria",
-        text: `This is the first time I am investing my money and for once I feel at peace... 
-I don't even remember or panic about the cash sef cos I just know its super 
-safe and growing. Thanks for not giving up on all my enquiry times.`
+        name: "Boluwatife Mary",
+        company: `I must commend Tent for all they do, started investing since 
+          July and I’ve had no regrets till now 
+          Helping me achieve my financial goals
+           the little way they can. Kudos`
       }]
     };
   },
@@ -2786,7 +2780,7 @@ safe and growing. Thanks for not giving up on all my enquiry times.`
   methods: {
     investNow() {
       if (this.userNumber && this.userEmail && this.userFullName != "" || null) {
-        this.contactUrl = `https://api.whatsapp.com/send?phone=2349019881034&text=Hello+I+want+to+invest+with+Thunder Enterprises+my+name+is+${this.userFullName}%0Amy+email+addresss+is+${this.userEmail}%0Aand+my+phone+number+is${this.userNumber}`;
+        this.contactUrl = `https://api.whatsapp.com/send?phone=2347042509361&text=Hello+I+want+to+invest+with+Thunder Enterprises+my+name+is+${this.userFullName}%0Amy+email+addresss+is+${this.userEmail}%0Aand+my+phone+number+is${this.userNumber}`;
         window.location.replace(this.contactUrl);
         this.dialog = false;
       } else {

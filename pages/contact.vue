@@ -23,9 +23,9 @@
           <v-btn color="primary" x-large block @click="mailer()">Send</v-btn>
         </v-form>
       </div>
-      <p class="primary--text">Email: infoThunder Enterprises@gmail.com</p>
+      <p class="primary--text">Email: officialtent@gmail.com</p>
       <p class="primary--text">
-        Call: +2348136908208, +2349019881034 (9:00am – 5:00pm. Monday – Friday).
+        Call: 09012976379, +2347042509361 (9:00am – 5:00pm. Monday – Friday).
       </p>
     </v-container>
   </div>
@@ -52,7 +52,7 @@ export default {
       if ((this.name && this.email && this.message != "") || null) {
         let subject = "from " + this.name + ":@ " + this.email;
         let mailRef =
-          "mailto:infoThunder Enterprises@gmail.com?subject=" +
+          "mailto:officialtent@gmail.com?subject=" +
           encodeURIComponent(subject) +
           "&body=" +
           encodeURIComponent(this.message);
